@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Doctor's Register Page</title>
+</head>
+<body>
+
+    <!--nav bar-->
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img style="border-radius: 50%;" src="logo.png" width="50" height="50" />
+        <span class="ml-3 text-xl">Home Health</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+      </nav>
+    </div>
+  </header>b
+
+ 
+
+  <center>
+    <h1 class="flex flex-col text-center w-full mb-12" style="font-size: xx-large;">Register Here</h1>
+  <form action="" method="post">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><input type="text" name="user" placeholder="Enter name Here"></td>
+        </tr>
+        <tr>
+            <td>Create Userame:</td>
+            <td><input type="text" name="user" placeholder="Enter username Here"></td>
+          </tr>
+        <tr>
+          <td>Create Password:</td>
+          <td><input type="password" name="user_pass" placeholder="Enter Password Here"></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="mail" placeholder="Enter Email Here"></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+          <input type="radio" name="gender"> Male
+          <input type="radio" name="gender"> Female
+          <input type="radio" name="gender"> Others
+          </td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td>
+            <select name="country_code">
+              <option value="+91">+91</option>
+            </select>
+            <input type="phone" name="mob_digits" placeholder="**********">
+          </td>
+        </tr>
+        <tr>
+          <td>Department:</td>
+          <td>
+            <select name="department">
+              <option aria-placeholder="--Select--">--Select--</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Dental">Dental</option>
+              <option value="Dermatology">Dermatology</option>
+              <option value="ENT">ENT</option>
+              <option value="Gastroentrology">Gastroentrology</option>
+              <option value="General Medicine">General Medicine</option>
+              <option value="General Surgery">General Surgery</option>
+              <option value="Gynaecology">Gynaecology</option>
+              <option value="Nephrology">Nephrology</option>
+              <option value="Neurology">Neurology</option>
+              <option value="Oncology">Oncology</option>
+              <option value="Opthalmology">Opthalmology</option>
+              <option value="Pathology">Pathology</option>
+              <option value="Pediatrics">Pediatrics</option>
+              <option value="Physiotherapy">Physiotherapy</option>
+              <option value="Psychiatry">Psychiatry</option>
+              <option value="Radiology">Radiology</option>
+              <option value="Urology">Urology</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>State/Union Territory:</td>
+          <td><input type="text" name="user" placeholder="Enter"></td>
+        </tr>
+        <tr>
+          <td>City:</td>
+          <td><input type="text" name="user" placeholder="Enter city name"></td>
+        </tr>
+        <tr>
+           <td><input type="submit" name="submit" value="submit"></td>
+           <td><p>Already a user? <a href="doclogin.html">Login Here</a></p></td>
+        </tr>
+      </table>
+  </form>
+  
+  </center>
+  <br><br><br><br><br>
+  <h1 style="color: red;"><b>Note: This is not a working site yet. To go to the Doctor's Dashboard Prototype <a href="/">CLICK HERE</a>.</b></h1>
+
+</body>
+</html>
